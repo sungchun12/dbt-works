@@ -43,7 +43,7 @@ To run it:
 
     {% else %}
 
-    {{ dbt_utils.log_info("No-op: your current target is " ~ target.name ~ ". This macro only works for a dev target.", info=True) }}
+    {{ dbt_utils.log_info("No-op: your current target is " ~ target.name ~ ". This macro only works for a dev target.") }}
 
     {% endif %}
 
